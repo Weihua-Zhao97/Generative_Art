@@ -152,7 +152,7 @@ square_vase_colorful_fixed <- function() {
 
 # Save plot to file (high resolution for printing)
 ggsave(
-  filename = "square_vase_more_flowers.png",  # Output filename (change to .jpg if needed)
+  filename = "vase_flowers.png",  # Output filename (change to .jpg if needed)
   plot = square_vase_colorful_fixed(),        # Plot object to save
   width = 3,                                  # Image width (inches)
   height = 4,                                 # Image height (inches)
