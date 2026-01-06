@@ -4,7 +4,6 @@ library(dplyr)
 
 # Function: Generate polar art data + map shade values to specific color codes
 # Returns dataframe with pre-computed color values for each data point
-
 polar_art_data_with_colors <- function(seed, n, palette_colors) {
   set.seed(seed)
   
@@ -76,7 +75,7 @@ square_vase_colorful_fixed <- function() {
   # Configuration for 9 flowers: seed/n/palette/x/y/scale/width multiplier
   # Each flower uses ONE color from the palettes list (palettes[[1]] to palettes[[9]])
   flower_configs <- list(
-    list(seed = 101, n = 2000, palette = palettes[[1]], x = 2.5, y = 4.0, scale = 1.2, width_mult = 4),
+    list(seed = 101, n = 2000, palette = palettes[[1]], x = 2.5, y = 3.6, scale = 1.2, width_mult = 4),
     list(seed = 102, n = 1000, palette = palettes[[2]], x = 1.2, y = 4.2, scale = 1.0, width_mult = 3.5),
     list(seed = 103, n = 800, palette = palettes[[3]], x = 3.8, y = 4.2, scale = 1.0, width_mult = 3.5),
     list(seed = 104, n = 900, palette = palettes[[4]], x = 4.5, y = 4.0, scale = 1.1, width_mult = 3.5),
@@ -119,7 +118,7 @@ square_vase_colorful_fixed <- function() {
   ggplot() +
     # Background rectangle (large negative/positive bounds to cover entire plot area)
     annotate("rect", xmin = 1000, xmax = -1000, ymin = -100, ymax = 0.3,
-             fill = "#681a30", alpha = 1) +
+             fill = "#1e3924", alpha = 1) +
     
     # Draw square vase (white fill)
     geom_polygon(data = square_vase, aes(x, y), fill = "white") +
@@ -134,19 +133,23 @@ square_vase_colorful_fixed <- function() {
     
     # Critical: Use identity scale to render exact color codes (no color transformation)
     scale_colour_identity() +
+  
     # Scale line width range for visible flower size variation
     scale_linewidth(range = c(1, 15)) +
+  
     # Use exact alpha values (no transformation)
     scale_alpha_identity() +
     
     # Fix plot dimensions (square aspect ratio) and visible range
     coord_fixed(xlim = c(0, 5), ylim = c(0, 7)) +
+  
     # Remove default plot elements (axes, grid, etc.)
     theme_void() +
+  
     # Set plot background color (light pink)
     theme(
-      panel.background = element_rect(fill = "#f0dee9", colour = NA),
-      plot.background = element_rect(fill = "#f0dee9", colour = NA)
+      panel.background = element_rect(fill = "#78a692", colour = NA),
+      plot.background = element_rect(fill = "#78a692", colour = NA)
     )
 }
 
