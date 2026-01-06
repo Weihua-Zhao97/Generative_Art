@@ -27,7 +27,7 @@ This project is an animated Mount Kailash (a mountain in Ngari Prefecture, Tibet
 Vase with Roses is an R-based generative art project that reinterprets classic still-life flower paintings through impressionist-inspired computational creativity—built with ggplot2, dplyr, and tibble, it transforms randomized line segments (with subtle Gaussian offsets to mimic soft brushstrokes) into intricate, organic rose-like formations set against a minimalist square vase silhouette. Each unique rendering features 9 distinct blooms, each in an elegant color palette with adjustable line widths, simulated transparency layers, and position scaling that create natural, layered bouquets; blending mathematical randomness (uniform and normal distributions) with artistic composition, this digital exploration uses code as the painter’s brush to generate infinite one-of-a-kind variations on the timeless "flowers in a vase" motif, where algorithms guide the growth of impressionist-style blooms with no two renderings ever identical.
 
 <p align="center">
-<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/vase_with_roses/vase_flowers.png" width="600" height="600" />
+<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/vase_with_roses/vase_flowers.png" width="600" />
 </p>
 <br>
 
