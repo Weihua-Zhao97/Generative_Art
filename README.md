@@ -7,7 +7,7 @@
 </div>
 
 <h4 align="justify"> 
-Generative Art is a creative repositories where data and code are transformed into artistic expression. Each piece explores how computational processes can generate visual beauty with emotional resonance, whether through R's elegant statistical visualizations or Python's dynamic generative systems. This repository serves as both a gallery of computational aesthetics and a living laboratory where mathematics meets meaning, documenting the creative possibilities that emerge when programming works not just as a tool for solving problems, but as a medium for exploring culture and spirituality.
+Generative Art is a creative repositories where data and code are transformed into artistic expression. Each piece explores how computational processes can generate visual beauty with emotional resonance, whether through R's elegant statistical visualizations or Python's dynamic generative systems. This repository serves as both a gallery of computational aesthetics and a living laboratory where mathematics meets meaning, documenting the creative possibilities that emerge when programming works not just as a tool for solving problems, but as a medium for exploring art and spirituality.
 </h4>
 <br>
 
