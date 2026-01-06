@@ -16,7 +16,7 @@ Generative Art is a creative repositories where data and code are transformed in
 This project is an animated Mount Kailash (a mountain in Ngari Prefecture, Tibet Autonomous Region of China) created with R code, completing through code a pilgrimage journey I have yet to make in person. With ggplot2 laying the foundation for static scene composition and gganimate enabling smooth dynamic transitions, the artwork depicts this snow-cloaked sacred mountain through layered geometric polygons. First, the mountain's silhouette is precisely defined by carefully curated vertex coordinates; then, these contours are duplicated, offset, and overlaid in softer, lighter shades to simulate the cumulative depth of snow cover and create a striking sense of three-dimensionality. The sky features a gentle gradient, blending from deep, rich blue to ethereal celestial purple, and is anchored by a translucent golden full moon that lends a serene, sacred ambiance. Additionally, 100 algorithmically generated snowflakes (seeded with 2026) drift downwards along unique, randomized trajectories shaped by uniform distributions and sinusoidal sway. Through gganimate's seamless frame-to-frame transitions, the final output is a GIF that transforms lines of code into a contemplative landscape scene. 
 
 <p align="center">
-<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/Mount%20Kailash%3A%20Digital%20Pilgrimage/mountain_in_snow.gif" width="600"  />
+<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/Mount%20Kailash%3A%20Digital%20Pilgrimage/mountain_in_snow.gif"  />
 </p>
 <br>
 
@@ -27,7 +27,7 @@ This project is an animated Mount Kailash (a mountain in Ngari Prefecture, Tibet
 Vase with Roses is an R-based generative art project that reinterprets classic still-life flower paintings through impressionist-inspired computational creativity. built with ggplot2, dplyr, and tibble, it transforms randomized line segments (with subtle Gaussian offsets to mimic soft brushstrokes) into intricate, organic rose-like formations set against a minimalist square vase silhouette. Each unique rendering features 9 distinct blooms, each in an elegant color palette with adjustable line widths, simulated transparency layers, and position scaling that create natural, layered bouquets; blending mathematical randomness (uniform and normal distributions) with artistic composition, this digital exploration uses code as the painter’s brush to generate infinite one-of-a-kind variations on the timeless "flowers in a vase" motif, where algorithms guide the growth of impressionist-style blooms with no two renderings ever identical.
 
 <p align="center">
-<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/vase_with_roses/vase_flowers.png" width="600" />
+<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/vase_with_roses/vase_flowers.png" height="500" />
 </p>
 <br>
 
