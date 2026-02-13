@@ -32,3 +32,22 @@ Vase with Roses is an R-based generative art project that reinterprets classic s
 <br>
 
 - **Tool:** @R `ggplot2`
+<br>
+
+### Valentine's Polar Rose: Exploring Intimacy Through Generative Art
+This project generates a Valentine-themed rose in polar coordinates using R. Inspired by Inspired by [Danielle Navarro’s *Art From Code*](https://blog.djnavarro.net/posts/2024-12-18_art-from-code-1/).
+(a static generative artwork), I transformed the concept into a dynamic animation with 6000 lines that gradually accumulate via shadow_mark(). I also modified the color palette, line width, and opacity to enhance a layered, Valentine-themed, painterly aesthetic, emphasizing the interplay of randomness, structure, and emergent form. The creative process mirrors the dynamics of intimacy:
+
+1. **Seeded randomness:** Lines start from random points with random offsets, leaving initial blank space as infinite possibility—like the openness at the beginning of a relationship.  
+2. **Accumulation:** `shadow_mark()` allows lines to gradually build, revealing the rose’s contour, reflecting the emergence of beauty and connection over time.  
+3. **Layering:** Similar color gradients and occasional white lines interweave. Repeated stacking represents effortful attempts at closeness, but progress is subtle, often just a visual loop.  
+4. **Magnified deviations:** Minor offsets in Cartesian coordinates are amplified in polar coordinates. Overly dense lines create internal clutter, illustrating how forcing intimacy can obscure natural beauty and produce “entropy.”  
+5. **Probabilistic closure:** Random offsets make perfect closure unlikely. While the outer shape becomes full, the inner structure retains unavoidable gaps, symbolizing that humans can be close with one another, but are ultimately independent.
+
+<p align="center">
+<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/valentine-polar-rose/rose.gif"  height="500"/>
+</p>
+<br>
+
+- **Tool:** @R `ggplot2` | `gganimate` (for frame-by-frame animation; relies on FFmpeg to render animations to MP4)
+<br>
