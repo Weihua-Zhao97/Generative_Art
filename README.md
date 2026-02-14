@@ -35,7 +35,7 @@ Vase with Roses is an R-based generative art project that recreates a flat oil-p
 <br>
 
 ### Valentine's Polar Rose: Exploring Intimacy Through Generative Art
-This project generates a Valentine-themed rose in polar coordinates using R. Inspired by Inspired by [Danielle Navarro’s *Art From Code*](https://blog.djnavarro.net/posts/2024-12-18_art-from-code-1/).
+This project generates a Valentine-themed rose in polar coordinates using R. Inspired by [Danielle Navarro’s *Art From Code*](https://blog.djnavarro.net/posts/2024-12-18_art-from-code-1/).
 (a static generative artwork), I transformed the concept into a dynamic animation with 6000 lines that gradually accumulate via shadow_mark(). I also modified the color palette, line width, and opacity to enhance a layered, Valentine-themed, painterly aesthetic, emphasizing the interplay of randomness, structure, and emergent form. The creative process mirrors the dynamics of intimacy:
 
 1. **Seeded randomness:** Lines start from random points with random offsets, leaving initial blank space as infinite possibility—like the openness at the beginning of a relationship.  
