@@ -44,9 +44,9 @@ This project generates a Valentine-themed rose in polar coordinates using R. Ins
 4. **Magnified deviations:** Minor offsets in Cartesian coordinates are amplified in polar coordinates. Overly dense lines create internal clutter, illustrating how forcing intimacy can obscure natural beauty and produce “entropy.”  
 5. **Probabilistic closure:** Random offsets make perfect closure unlikely. While the outer shape becomes full, the inner structure retains unavoidable gaps, symbolizing that humans can be close with one another, but are ultimately independent.
 
-<p align="center">
-<img src="https://github.com/Weihua-Zhao97/Generative_Art/blob/main/valentine-polar-rose/rose.gif"  height="500"/>
-</p>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/2f00cff4-6a8d-4770-bbf7-10529fe32311" width="400" />
+</div>
 <br>
 
 - **Tool:** @R `ggplot2` | `gganimate` (for frame-by-frame animation; relies on FFmpeg to render animations to MP4)
